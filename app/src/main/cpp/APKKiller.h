@@ -24,8 +24,8 @@
 #define LOGI(...) __android_log_print(ANDROID_LOG_INFO, "APKKiller", __VA_ARGS__)
 
 #define apk_asset_path "original.apk" // assets/original.apk
-#define apk_fake_name "original.apk" // /data/data/<package_name>/cache/original.apk
-std::vector<std::vector<uint8_t>> apk_signatures;
+#define apk_fake_name "original.apk" // /data/data/com.infinitygames.loopenergy/cache/original.apk
+std::vector<std::vector<uint8_t>> E207C0D0EB5A8264B81A39E707E12E98CB70A79B;
 
 JavaVM *g_vm;
 JNIEnv *g_env;
