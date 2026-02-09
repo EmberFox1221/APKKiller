@@ -1,4 +1,4 @@
-came: Build
+name: Build
 
 on:
   push:
